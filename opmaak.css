@@ -36,7 +36,7 @@ div {
 }
 
 h1 {
-  text-align: center;
+  text-align: right;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -49,5 +49,5 @@ p {
 
 a {
   text-decoration: none;
-  color: #18dbca9f;
+  color: #1fa385;
 }
