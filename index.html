@@ -8,13 +8,25 @@
             /* Add CSS styles for positioning */
             .container {
                 display: flex;
-                align-items: center;
+                flex-direction: column; /* Stack elements vertically */
+                align-items: flex-start; /* Align elements to the left */
             }
 
             /* Style for the text */
             .text {
-                margin-left: 20px; /* Increase margin for more space */
+                margin-left: 10px; /* Adjust margin for spacing from the image */
                 margin-top: 10px; /* Adjust margin-top for higher positioning */
+            }
+
+            /* Style for the additional paragraph */
+            .description {
+                margin-left: 10px; /* Add margin to separate it from the text */
+            }
+
+            /* Style for the image */
+            img {
+                max-width: 50%; /* Reduce image width for better layout */
+                align-self: flex-start; /* Align the image to the top */
             }
         </style>
     </head>
@@ -30,6 +42,9 @@
             <img src="silva.webp" width="535" height="800">
             <div class="text">
                 <h1>David Jimenez Silva #21</h1>
+            </div>
+            <div class="description">
+                <p>Gepensioneerde voetballer die onder andere voor Valencia, Manchester City en Real Sociedad heeft gespeeld. Hij beëindigde zijn succesvolle carrière op 27 juli 2023.</p>
             </div>
         </div>
     </body>
